@@ -16,9 +16,10 @@ int main(){
     double difference = firstNumber - secondNumber;
     double product = firstNumber * secondNumber;
 
+    cout<<"\nRESULTS\n";
     cout<<"The sum of "<<firstNumber<<" and "<<secondNumber<<" is "<<sum<<endl;
-    cout<<"\nThe difference of "<<firstNumber<<" and "<<secondNumber<<" is "<<difference<<endl;
-    cout<<"\nThe product of "<<firstNumber<<" and "<<secondNumber<<" is "<<product<<endl;
+    cout<<"The difference of "<<firstNumber<<" and "<<secondNumber<<" is "<<difference<<endl;
+    cout<<"The product of "<<firstNumber<<" and "<<secondNumber<<" is "<<product<<endl;
 
 
 }
