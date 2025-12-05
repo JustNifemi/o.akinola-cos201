@@ -32,7 +32,6 @@ do{
     //adding inputs
     string studentName;
     cout<<"\nEnter your full name: "<<endl;
-    cin.ignore();
     getline(cin, studentName);
 
     bool isPAUstudent;
