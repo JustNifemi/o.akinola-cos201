@@ -7,6 +7,7 @@ int main(){
     //ios::in to read a file
     //ios::app to append to an existing file
     //ios::trunc to truncate(erase/delete file) before writing 
+
     // fstream file("data.txt", ios::out | ios::app);
 
     // file<<"adding a new line\n";
@@ -15,13 +16,11 @@ int main(){
     // cout<<"done! DONE!\n";
 
     ifstream file("data.txt");
-    if (!file){
-        cout<<"File cannot be opened";
-    }
+    
 
     //could be string not int
     int number;
-    int sum=0;
+    int sum = 0;
     int arr[5];
     int index = 0;
 

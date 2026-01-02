@@ -10,5 +10,5 @@ int main(){
             max = arr[i];
         }
     }
-    cout<<max;
+    cout<<"The maximim element is "<<max;
 }
